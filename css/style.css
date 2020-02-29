@@ -70,3 +70,54 @@ img{
     margin-left: 10px;
    
 }
+/* Gears section by britt */
+.gearparent {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfd6c8;
+    margin: 0px 50px 0px 0px;
+}
+.gearparent h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eca419;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.gearparent .boxcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display:flex;
+    background-color: #fff;
+    width: 65%;
+    margin: 3px 0px;
+}
+.gearparent .box img {
+    margin:30px;
+}
+.gearparent .boxcontainer .box .column h2{
+    width: fit-content;
+    text-transform: uppercase;
+    margin: 30px;
+    font-weight: lighter;
+}
+.gearparent .boxcontainer .box .column p{
+    width: fit-content;
+    margin: 30px;
+}
+.gearparent .boxcontainer .box .main{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.gearparent .boxcontainer .box .overlay {
+    position: absolute;
+    top: 1075px;
+    left: 320px;
+}
