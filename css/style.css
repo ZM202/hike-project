@@ -13,7 +13,6 @@
 
 .navigation{
     display: flex;
-    text-orientation: horizontal;
     font-family: 'Muli';
     color: #ffffff;
     text-decoration: none;
@@ -71,7 +70,6 @@ img{
     text-decoration: none;
     height: 2px;   
 }
-<<<<<<< Updated upstream
 .fas{
     color: #ECA419;
     margin-left: 10px;
@@ -107,6 +105,7 @@ img{
 }
 .gearparent .box img {
     margin:30px;
+    width: auto;
 }
 .gearparent .boxcontainer .box .column h2{
     width: fit-content;
@@ -125,25 +124,25 @@ img{
 }
 .gearparent .boxcontainer .box .overlay {
     position: absolute;
-    top: 1075px;
-    left: 320px;
+    top: 1900px;
+    left: 250px;
 }
-=======
 
 /* <!-- nav ends here --> */
 
 /* <!-- articles starts here --> */
 .row{
-    margin-top: 500px; 
+    margin-top: 550px; 
     display: flex;
     flex-direction: row;
     width: auto;
     height: auto;   
+    margin-bottom: 25px;
 }
 
 .articles{
     flex-direction: column;
-    justify-content: space-aroundt;
+    justify-content: space-around;
         
 }
 .articlespics{
@@ -164,4 +163,3 @@ h3{
 /* <!-- articles ends here --> */
 
 
->>>>>>> Stashed changes
