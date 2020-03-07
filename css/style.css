@@ -7,7 +7,7 @@ body{
     
 }
 /* <!-- nav starts here --> */ 
-/* .menu  {
+.menu  {
     display: flex;
 }
 .logo {
@@ -42,46 +42,9 @@ ul li {
     align-items: center;
     justify-content: space-between;
 }
+
 /* <!-- nav ends here --> */
-/* Features Section starts here  */
-/* .features   {
-    display:flex;
-    max-width: 100%;
 
-}
-.img1   {
-    background: url("../image/desert.jpg") no-repeat;
-    background-size: cover;
-    width: 75%;
-    padding left: 50px;
-    height: 500px;
-}
-
-.desert{
-    display: flex;
-    flex-direction: column;
-     justify-content: flex-end;
-    width: 60%;
-    height: 450px;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: 2px #eca419 solid;
-    margin-left: 150px;
-}
-.stream {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: center;
-    width: 60%;
-    height: 100%;
-    /* padding-bottom: 50px; */
-    
-}
 
 .relax{
     display: flex;
