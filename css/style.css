@@ -1,12 +1,13 @@
-body {
-    background-color: #333a35;
-    
-}
-.maincontainer {
-    
-}
 
-.menu  {
+body{
+    background-color: #333A35;
+}
+.main-container{
+    width: 98vw;
+    
+}
+/* <!-- nav starts here --> */ 
+/* .menu  {
     display: flex;
 }
 .logo {
@@ -40,26 +41,20 @@ ul li {
     color: #eca419;
     align-items: center;
     justify-content: space-between;
-    
 }
-
-/* Features Section  */
-.features   {
+/* <!-- nav ends here --> */
+/* Features Section starts here  */
+/* .features   {
     display:flex;
-    /* background-color: #dfd6c8; */
     max-width: 100%;
-}
-.mainFeature {
-    display: flex;
-    width: 100%;
-    
+
 }
 .img1   {
     background: url("../image/desert.jpg") no-repeat;
     background-size: cover;
     width: 75%;
     padding left: 50px;
-    height: 550px;
+    height: 500px;
 }
 
 .desert{
@@ -97,6 +92,11 @@ ul li {
     height: 100%;
     justify-content: flex-end;
     margin: 0 0 150px 50px;
+}
+
+.mainFeature {
+    display: flex;
+    width: 100%;
     
 }
 .twofeatures {
@@ -116,7 +116,90 @@ ul li {
     background-size: contain;
     width: 100%;
     height:100%;
+}   */
+/* End Features Section */
+/* <!-- articles starts here --> */
+.articles-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 280px;   
+    background-color: #ffffff;
+    margin: 0px 50px 0px 0px;
+     
 }
+.articles-sub-container{
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 240px;
+        
+}
+.img-recipes{
+    background-image: url("../image/images-for-hike-project/recipes.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: auto;
+    height: auto; 
+    justify-content: space-evenly;
+    padding-bottom: 3px;
+    padding-top: 30px;
+    margin: 20px 0px 50px 10px;
+}
+   
+.img-tent{
+    background-image: url("../image/images-for-hike-project/tent.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: auto;
+    height: auto; 
+    justify-content: space-evenly;
+    padding-bottom: 3px;
+    padding-top: 30px; 
+    margin: 20px 0px 50px 10px; 
+    
+} 
+
+.img-candles{
+    background-image: url("../image/images-for-hike-project/candles.jpg");   
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: auto;
+    height: auto; 
+    justify-content: space-evenly;
+    padding-bottom: 3px;
+    padding-top: 30px;
+    margin: 20px 0px 50px 10px
+} 
+.img-backpacks{
+    background-image: url("../image/images-for-hike-project/backpacks.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: auto;
+    height: auto; 
+    justify-content: space-evenly;
+    padding-bottom: 3px;
+    padding-top: 30px;
+    margin: 20px 0px 50px 10px 
+} 
+
+
+h3{
+    margin: auto;
+    position: relative;
+    width: 250px;
+    height: 100px;
+    padding: 25px;
+    padding-bottom: 10px;
+    top: 120px;
+}
+/* <!-- articles ends here --> */
 /* Gears section by britt */
 .gearparent {
     display: flex;
@@ -136,17 +219,55 @@ ul li {
 .gearparent .boxcontainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .box {
     display:flex;
     background-color: #fff;
-    width: 65%;
+    width: 75%;
+    height: auto; 
     margin: 3px 0px;
 }
-.gearparent .box img {
-    margin:30px;
+
+.chairs {
+    background: url("../image/chairs.jpg") no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 150px;
+    margin: 25px;
+}
+.cooksets {
+    background: url("../image/cooksets.jpg ") no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 150px;
+    margin: 25px;
+}
+.hats {
+    background: url("../image/hats.jpg ") no-repeat;
+    background-size: contain;
+    width: 260px;
+    height: 150px;
+    margin: 25px;
+}
+.overlap {
+    display: flex;
+}
+.candles{
+    background: url("../image/candles.jpg ") no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 150px;
+    margin: 25px;
+}
+.badge {
+    display: flex;
+    padding-top: 150px;
+    background: url("../image/badge.png ") no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+    margin: 90px 0px 0px 50px;
 }
 .gearparent .boxcontainer .box .column h2{
     width: fit-content;
@@ -158,3 +279,10 @@ ul li {
     width: fit-content;
     margin: 30px;
 }
+
+
+
+
+
+
+
