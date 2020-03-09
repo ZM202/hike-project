@@ -1,10 +1,10 @@
-/* <!-- nav starts here --> */
 .main-container{
     width: 98vw;
     
 }
 body{
-    background-color: #808080;
+    background-color: #333a35;
+    width: 98vw;
 }
 
 .grey-box{
@@ -23,24 +23,16 @@ body{
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: normal;
-    letter-spacing: normal;  
     margin-right: 55px;
     padding: 15px;    
 }
 
 .img-logo{
-    background-image: url("../image/images-for-hike-project/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-     display: flex; 
-     width: 100px;
-     height: 80px;
-     margin-right: 25px;
-    justify-content: space-between; 
+    width: 15px;
+    margin-right: 55px;
+    justify-content: space-evenly;
 }
+
 .menu{
     color: #ffffff;
     display: flex;
@@ -91,7 +83,7 @@ img{
     display: flex;
     flex-direction: column;
     background-color: #dfd6c8;
-    margin: 0px 50px 0px 0px;
+    margin: 0px 50px 0px -5px;
 }
 .gearparent h1 {
     display: flex;
@@ -142,86 +134,46 @@ img{
 /* <!-- nav ends here --> */
 
 /* <!-- articles starts here --> */
-.articles-main-container{
+.main-articles{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+    width: 105vw;
     height: 280px;   
     background-color: #ffffff;
-    margin: 560px 50px 0px 0px;
-     
+    margin: 0px 0px 0px -4px;
+    padding: 10px;
+             
 }
-.articles-sub-container{
-    flex-direction: column;
-    justify-content: space-around;
+.sub-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+ }
+
+.sub-articles > div {
+    justify-content: space-evenly; 
+    margin: -1px -25px 0px -35px;
+    padding: 50px;
+}
+
+.sub-articles img{
+    flex-direction: row;
     width: auto;
     height: auto;
-    padding: 10px;
-    margin-bottom: 240px;
-        
-}
-.img-recipes{
-    background-image: url("../image/images-for-hike-project/recipes.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto;
-    width: auto;
-    height: auto; 
-    justify-content: space-evenly;
-    padding-bottom: 3px;
-    padding-top: 30px;
-    margin: 20px 0px 50px 10px;
-}
-   
-.img-tent{
-    background-image: url("../image/images-for-hike-project/tent.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto;
-    width: auto;
-    height: auto; 
-    justify-content: space-evenly;
-    padding-bottom: 3px;
-    padding-top: 30px; 
-    margin: 20px 0px 50px 10px; 
-    
+    padding: 5px;
+    margin: -25px 15px 0px 0px;
 } 
-
-.img-candles{
-    background-image: url("../image/images-for-hike-project/candles.jpg");   
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto;
-    width: auto;
-    height: auto; 
-    justify-content: space-evenly;
-    padding-bottom: 3px;
-    padding-top: 30px;
-    margin: 20px 0px 50px 10px
-} 
-.img-backpacks{
-    background-image: url("../image/images-for-hike-project/backpacks.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto;
-    width: auto;
-    height: auto; 
-    justify-content: space-evenly;
-    padding-bottom: 3px;
-    padding-top: 30px;
-    margin: 20px 0px 50px 10px 
-} 
-
 
 h3{
     margin: auto;
     position: relative;
-    width: 250px;
-    height: 100px;
-    padding: 25px;
-    padding-bottom: 10px;
-    top: 120px;
+    padding:20px;
+    padding-bottom: 5px;
+    margin: 0px 5px 0px 0px;    
 }
-/* <!-- articles ends here --> */
 
+
+/* <!-- articles ends here --> */
 
